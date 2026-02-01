@@ -4,6 +4,7 @@
     {
         var exitMessage = "exit";
         var playerInput = "";
+        
         while (playerInput != exitMessage)
         {
             Console.Write("Введите слово: ");
