@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\bin\Debug\net8.0\Pictures.exe
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\bin\Debug\net8.0\Pictures.deps.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\bin\Debug\net8.0\Pictures.runtimeconfig.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\bin\Debug\net8.0\Pictures.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\bin\Debug\net8.0\Pictures.pdb
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.AssemblyInfo.cs
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.sourcelink.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\refint\Pictures.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.pdb
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\Pictures.genruntimeconfig.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\Pictures\obj\Debug\net8.0\ref\Pictures.dll
