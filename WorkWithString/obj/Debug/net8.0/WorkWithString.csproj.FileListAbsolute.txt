@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\bin\Debug\net8.0\WorkWithString.exe
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\bin\Debug\net8.0\WorkWithString.deps.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\bin\Debug\net8.0\WorkWithString.runtimeconfig.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\bin\Debug\net8.0\WorkWithString.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\bin\Debug\net8.0\WorkWithString.pdb
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.AssemblyInfo.cs
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.sourcelink.json
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\refint\WorkWithString.dll
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.pdb
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\WorkWithString.genruntimeconfig.cache
+C:\Users\User\source\repos\Ya-Yunior-Learn\WorkWithString\obj\Debug\net8.0\ref\WorkWithString.dll
