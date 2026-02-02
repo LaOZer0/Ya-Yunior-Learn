@@ -4,12 +4,17 @@
     {
         var number = new Random().Next(0, 101);
         var sumNumbers = 0;
-        var multipleOfThree = 3;
-        var multipleOfFive = 5;
+        var multipleThree = 3;
+        var multipleFive = 5;
 
-        for (var i = 1; i * multipleOfFive < number && i * multipleOfThree < number;  i++)
+        for (var i = multipleThree; i <= number; i++)
         {
-            sumNumbers += i * multipleOfThree + i * multipleOfFive;
+            if (i % multipleThree != 0 && i % multipleFive != 0)
+            {
+                continue;
+            }
+
+            sumNumbers += i;
         }
 
         Console.WriteLine(sumNumbers);
