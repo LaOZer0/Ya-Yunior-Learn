@@ -12,13 +12,12 @@
         }
 
         var baseWaitingTimeInMinutes = 10;
-        var waitingYourTurnInMinutes = countPeople * baseWaitingTimeInMinutes;
+        var waitingTurnInMinutes = countPeople * baseWaitingTimeInMinutes;
 
         var minutesInHour = 60;
-        var countHoursInQueue = waitingYourTurnInMinutes / minutesInHour;
-        var countMinutesInQueue = waitingYourTurnInMinutes % minutesInHour;
+        var countHoursInQueue = waitingTurnInMinutes / minutesInHour;
+        var countMinutesInQueue = waitingTurnInMinutes % minutesInHour;
 
         Console.WriteLine($"Вы должны отстоять в очереди {countHoursInQueue} часа и {countMinutesInQueue} минут.");
-
     }
 }
