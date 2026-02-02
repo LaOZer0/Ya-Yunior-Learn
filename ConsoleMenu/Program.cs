@@ -1,5 +1,11 @@
 ﻿public static class Program
 {
+    private const int COMMAND_TEXT = 0;
+    private const int COMMAND_ANOTHER_TEXT = 1;
+    private const int COMMAND_RANDOM_NUMBER = 2;
+    private const int COMMAND_CLEAR = 3;
+    private const int COMMAND_EXIT = 4;
+
     public static void Main(string[] args)
     {
         bool isStillWorks = true;
@@ -11,11 +17,11 @@
         while (isStillWorks)
         { 
             Console.WriteLine("Выберите номер команды: ");
-            Console.WriteLine($"0. Команда для вывода {firstText}");
-            Console.WriteLine($"1. Команда для вывода {secondText}");
-            Console.WriteLine("2. Команда для случайного числа");
-            Console.WriteLine("3. Команда для отчистки консоли");
-            Console.WriteLine("4. Команда для выхода");
+            Console.WriteLine($"{COMMAND_TEXT}. Команда для вывода {firstText}");
+            Console.WriteLine($"{COMMAND_ANOTHER_TEXT}. Команда для вывода {secondText}");
+            Console.WriteLine($"{COMMAND_RANDOM_NUMBER}. Команда для случайного числа");
+            Console.WriteLine($"{COMMAND_CLEAR}. Команда для отчистки консоли");
+            Console.WriteLine($"{COMMAND_EXIT}. Команда для выхода");
 
             if (int.TryParse(Console.ReadLine(), out numberOfCommand) == false)
             {
@@ -25,19 +31,19 @@
 
             switch (numberOfCommand)
             {
-                case 0:
+                case COMMAND_TEXT:
                     Console.WriteLine("текста");
                     break;
-                case 1:
+                case COMMAND_ANOTHER_TEXT:
                     Console.WriteLine("другого текста");
                     break;
-                case 2:
+                case COMMAND_RANDOM_NUMBER:
                     Console.WriteLine(randomNumber.Next());
                     break;
-                case 3:
+                case COMMAND_CLEAR:
                     Console.Clear();
                     break;
-                case 4:
+                case COMMAND_EXIT:
                     isStillWorks = false;
                     break;
                 default:
