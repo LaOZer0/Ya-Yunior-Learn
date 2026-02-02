@@ -4,12 +4,12 @@
     {
         var step = 7;
         var lastNumber = 103;
-        var currentNumber = 5;
+        var startNumber = 5;
 
-        while (currentNumber <= lastNumber)
+        //Выбрал данный цикл, так как есть известные конец и шаг 
+        for (var i = startNumber; i <= lastNumber; i += step)
         {
-            Console.WriteLine(currentNumber);
-            currentNumber += step;
+            Console.WriteLine(i);
         }
     }
 }
