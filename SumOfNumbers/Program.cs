@@ -2,11 +2,11 @@
 {
     public static void Main(string[] args)
     {
-        var rightBorder = 101;
-        var number = new Random().Next(0, rightBorder);
-        var sumNumbers = 0;
-        var firstDivider = 3;
-        var secondDivider = 5;
+        int maxRandomNumber = 100;
+        int number = new Random().Next(0, maxRandomNumber + 1);
+        int sumNumbers = 0;
+        int firstDivider = 3;
+        int secondDivider = 5;
 
         for (var i = firstDivider; i <= number; i++)
         {
