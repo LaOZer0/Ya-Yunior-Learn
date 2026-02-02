@@ -2,14 +2,15 @@
 {
     public static void Main(string[] args)
     {
-        var number = new Random().Next(0, 101);
+        var rightBorder = 101;
+        var number = new Random().Next(0, rightBorder);
         var sumNumbers = 0;
-        var multipleThree = 3;
-        var multipleFive = 5;
+        var firstDivider = 3;
+        var secondDivider = 5;
 
-        for (var i = multipleThree; i <= number; i++)
+        for (var i = firstDivider; i <= number; i++)
         {
-            if (i % multipleThree != 0 && i % multipleFive != 0)
+            if (i % firstDivider != 0 && i % secondDivider != 0)
             {
                 continue;
             }
