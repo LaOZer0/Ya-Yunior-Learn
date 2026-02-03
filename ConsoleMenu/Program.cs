@@ -1,15 +1,15 @@
 ﻿public static class Program
 {
-    private const int COMMAND_TEXT = 0;
-    private const int COMMAND_ANOTHER_TEXT = 1;
-    private const int COMMAND_RANDOM_NUMBER = 2;
-    private const int COMMAND_CLEAR = 3;
-    private const int COMMAND_EXIT = 4;
+    private const int CommandText = 0;
+    private const int CommandAnotherText = 1;
+    private const int CommandRandomNumber = 2;
+    private const int CommandClear = 3;
+    private const int CommandExit = 4;
 
     public static void Main(string[] args)
     {
         bool isStillWorks = true;
-        var randomNumber = new Random();
+        var numberRandomizer = new Random();
         string firstText = "текста";
         string secondText = "другого текста";
         int numberOfCommand;
@@ -17,11 +17,11 @@
         while (isStillWorks)
         { 
             Console.WriteLine("Выберите номер команды: ");
-            Console.WriteLine($"{COMMAND_TEXT}. Команда для вывода {firstText}");
-            Console.WriteLine($"{COMMAND_ANOTHER_TEXT}. Команда для вывода {secondText}");
-            Console.WriteLine($"{COMMAND_RANDOM_NUMBER}. Команда для случайного числа");
-            Console.WriteLine($"{COMMAND_CLEAR}. Команда для отчистки консоли");
-            Console.WriteLine($"{COMMAND_EXIT}. Команда для выхода");
+            Console.WriteLine($"{CommandText}. Команда для вывода {firstText}");
+            Console.WriteLine($"{CommandAnotherText}. Команда для вывода {secondText}");
+            Console.WriteLine($"{CommandRandomNumber}. Команда для случайного числа");
+            Console.WriteLine($"{CommandClear}. Команда для отчистки консоли");
+            Console.WriteLine($"{CommandExit}. Команда для выхода");
 
             if (int.TryParse(Console.ReadLine(), out numberOfCommand) == false)
             {
@@ -31,19 +31,19 @@
 
             switch (numberOfCommand)
             {
-                case COMMAND_TEXT:
+                case CommandText:
                     Console.WriteLine("текста");
                     break;
-                case COMMAND_ANOTHER_TEXT:
+                case CommandAnotherText:
                     Console.WriteLine("другого текста");
                     break;
-                case COMMAND_RANDOM_NUMBER:
-                    Console.WriteLine(randomNumber.Next());
+                case CommandRandomNumber:
+                    Console.WriteLine(numberRandomizer.Next());
                     break;
-                case COMMAND_CLEAR:
+                case CommandClear:
                     Console.Clear();
                     break;
-                case COMMAND_EXIT:
+                case CommandExit:
                     isStillWorks = false;
                     break;
                 default:
