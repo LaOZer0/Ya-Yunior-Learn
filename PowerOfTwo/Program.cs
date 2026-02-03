@@ -15,5 +15,14 @@
         }
 
         Console.WriteLine($"Искомая степень: {degree}");
+
+        raisedNumber = 1;
+
+        for (degree = 0; raisedNumber <= randomNumber; raisedNumber *= 2)
+        {
+            degree++;
+        }
+
+        Console.WriteLine(degree);
     }
 }
