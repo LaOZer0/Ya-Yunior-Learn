@@ -6,15 +6,13 @@
         string password = "password";
         string secretMessage = "message";
         Console.WriteLine("Введите пароль для доступа");
-        string userInput;
 
         for (var i = 0; i < countTries; i++)
         {
-            userInput = Console.ReadLine();
-            if (userInput == password)
+            if (Console.ReadLine() == password)
             {
                 Console.WriteLine(secretMessage);
-                continue;
+                break;
             }
 
             Console.WriteLine("Попробуйте ещё раз");
