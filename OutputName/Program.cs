@@ -10,8 +10,9 @@ public static class Program
         Console.WriteLine("Введите символ");
         int totalLength = name.Length + countExtraSymbol;
         var symbols = new StringBuilder(totalLength).Insert(0, Console.ReadLine(), totalLength).ToString();
+        int countLines = 3;
         
-        for (var i = 0; i < 3; i++)
+        for (var i = 0; i < countLines; i++)
         {
             if (i == 1)
             {
