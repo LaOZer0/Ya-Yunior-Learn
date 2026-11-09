@@ -42,7 +42,7 @@
                     break;
 
                 case fireball:
-                    if (playerManapull <= 0)
+                    if (playerManapull < fireballManacost)
                     {
                         Console.WriteLine("Недостаточно маны");
                         break;
@@ -77,7 +77,7 @@
                     break;
 
                 default:
-                    Console.WriteLine("Неизвестное действие");
+                    Console.WriteLine("Неизвестное действие. Вы упустили свой ход.");
                     break;
             }
 
