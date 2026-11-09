@@ -2,10 +2,10 @@
 {
     public static void Main(string[] args)
     {
-        int swordAttack = 1;
-        int fireball = 2;
-        int explosion = 3;
-        int recovery = 4;
+        const int SwordAttack = 1;
+        const int Fireball = 2;
+        const int Explosion = 3;
+        const int Recovery = 4;
 
         int maxPlayerHealth = 100;
         int maxPlayerManapull = 30;
@@ -28,20 +28,20 @@
             Console.WriteLine($"Ваше здоровье: {playerHealth}. Мана: {playerManapull}");
             Console.WriteLine($"Здоровье босса: {bossHealth}");
             Console.WriteLine("Выберите действие:");
-            Console.WriteLine($"[{swordAttack}] Удар мечом. Урон: {swordDamage}");
-            Console.WriteLine($"[{fireball}] Огненный шар. Урон: {fireballDamage}. Затраты маны: {fireballManacost}");
-            Console.WriteLine($"[{explosion}] Взрыв. Урон: {explosionDamage}. Предварительно необходимо использовать огненный шар");
-            Console.WriteLine($"[{recovery}] Восстановление здоровья и маны. Оставшееся количество использований: {recoveryCount}");
+            Console.WriteLine($"[{SwordAttack}] Удар мечом. Урон: {swordDamage}");
+            Console.WriteLine($"[{Fireball}] Огненный шар. Урон: {fireballDamage}. Затраты маны: {fireballManacost}");
+            Console.WriteLine($"[{Explosion}] Взрыв. Урон: {explosionDamage}. Предварительно необходимо использовать огненный шар");
+            Console.WriteLine($"[{Recovery}] Восстановление здоровья и маны. Оставшееся количество использований: {recoveryCount}");
 
             Int32.TryParse(Console.ReadLine(), out playerAction);
 
             switch (playerAction)
             {
-                case swordAttack:
+                case SwordAttack:
                     bossHealth -= swordDamage;
                     break;
 
-                case fireball:
+                case Fireball:
                     if (playerManapull <= 0)
                     {
                         Console.WriteLine("Недостаточно маны");
@@ -53,7 +53,7 @@
                     isFireballCasted = true;
                     break;
 
-                case explosion:
+                case Explosion:
                     if (isFireballCasted == false)
                     {
                         Console.WriteLine("Перед использованием необходимо использовать огненный шар!");
@@ -64,7 +64,7 @@
                     isFireballCasted = false;
                     break;
 
-                case recovery:
+                case Recovery:
                     if (recoveryCount == 0)
                     {
                         Console.WriteLine("Вы истратили всё восстановление");
