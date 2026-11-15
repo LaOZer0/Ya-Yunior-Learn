@@ -2,11 +2,11 @@
 {
     public static void Main(string[] args)
     {
-        PrintBar(40, 10, '#');
-        PrintBar(70, 10, '*');
+        PrintBar(40, 10, 0, '#');
+        PrintBar(70, 10, 1, '*');
     }
 
-    private static void PrintBar(int barPercentage, int barLength, char barSymbol)
+    private static void PrintBar(int barPercentage, int barLength, int position, char barSymbol = '#')
     {
         const char EmptyBarSymbol = '_';
 
@@ -26,6 +26,7 @@
             }
         }
 
+        Console.SetCursorPosition(0, position);
         Console.WriteLine($"[{string.Join("", bar)}]");
     }
 }
